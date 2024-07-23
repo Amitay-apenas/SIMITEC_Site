@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+
+body {
+    background-color: white;
+    color: rgb(5, 5, 5);   
+}
+
+header {
+    background-color: #2360c9;
+    width: 100%;
+    position: static;
+}
+
+h1 {
+    width: 50%;
+    font-size: 50px;
+    color: rgb(168, 73, 152)
+}
+
+p {
+    font-size: 30px;
+}
+
+.main_text {
+    margin: 50px;
+}
+
+.description {
+    margin-top: 35px;
+    width: 50%;
+}
+
+.images {
+    margin-top: 20em;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0 );
+    transition: all 1s;
+}
+
+.image_main_text{
+    position: static;
+    height: 100px;
+    width: 100px;
+}
+
+.image_main_text img {
+    height: 600px;
+    width: 600px;
+}
+
+.cyberbully_element {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.cyberbully_element img {
+    height: 250px;
+    width: 500px;
+}
+footer {
+    margin-top: 20%;
+    position: static;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: #2360c9;
+}
+
+.information_area {
+    padding: 60px;
+    margin-top: 30%;
+    background-color: #2360c9;
+    height: 100vh;
+    width: 100vw;
+}
+
+.information_area p{
+    margin: 20px;
+}
+
+.info_text {
+    width: 50%;
+    color: white;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #a84998;
+    transition-delay: 450ms;
+}
+
+.megaphone_logo {
+    position: absolute;
+    margin-left: 60%;
+}
+
+.policiaCivil_logo {
+    position: absolute;
+    margin-left: 60%;
+    filter: drop-shadow(30px 10px 4px #00000067);
+}
+
+.last_area {
+    margin-top: 70px;
+}
+
+.last_area_text {
+    margin-left: 35px;
+}
